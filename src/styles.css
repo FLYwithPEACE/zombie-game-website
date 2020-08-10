@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.square {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4%;
+  display: inline-block;
+  height: 275px;
+  margin: 5px;
+  width: 200px;
+}
+
+.image_square {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2%;
+  display: flex;
+  height: 175px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  transition-duration: 0.2s;
+  width: 175px;
+}
+
+.image_circle {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  height: 175px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  transition-duration: 0.2s;
+  width: 175px;
+}
+
+.image_rec {
+  align-items: center;
+  background-color: black;
+  border-radius: 2%;
+  color: white;
+  display: flex;
+  height: 175px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  transition-duration: 0.2s;
+  width: 175px;
+}
+
+.values {
+  align-items: center;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  margin-top: 2px;
+  top: 12px;
+  width: 175px;
+}
+
+.button {
+  align-items: center;
+  background-color: green;
+  border: 2px solid blue;
+  border-radius: 30px;
+  display: flex;
+  font-weight: bold;
+  height: 30px;
+  justify-content: center;
+  visibility: hidden;
+  width: 125px;
+}
